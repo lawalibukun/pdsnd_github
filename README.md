@@ -37,6 +37,7 @@ And run python bikeshare_2.py
 bikeshare.py
 new_york_city.csv
 washington.csv
+chicago.csv
 
 ### Credits
 https://knowledge.udacity.com/
