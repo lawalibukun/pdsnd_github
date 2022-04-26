@@ -85,7 +85,7 @@ def load_data(city, month, day):
        
               
     return df
-def display_data(df):
+def show_data(df):
 # The user asks to see some rows of data upon request
   view_data = input("Would you like to view 5 rows of individual trip data? Enter yes or no")
   start_loc = 0
