@@ -27,6 +27,12 @@ Popular times of travel (i.e., occurs most often in the start time): most common
 Trip duration: total travel time, average travel time.
 User info: counts of each user type counts of each gender (only available for NYC and Chicago) earliest, most recent, most common year of birth (only available for NYC and Chicago).
 
+How To Run the Data:
+Clone the project Prerequisite You must have installed python and libraries like numpy and pandas.
+Run the project
+Open the terminal
+And run python bikeshare_2.py
+
 ### Files used
 bikeshare.py
 new_york_city.csv
