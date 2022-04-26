@@ -48,7 +48,7 @@ def get_filters():
     return city, month, day
 
 
-def load_data(city, month, day):
+def loads_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
 
@@ -85,7 +85,7 @@ def load_data(city, month, day):
        
               
     return df
-def display_data(df):
+def show_data(df):
 # The user asks to see some rows of data upon request
   view_data = input("Would you like to view 5 rows of individual trip data? Enter yes or no")
   start_loc = 0
@@ -159,7 +159,7 @@ def trip_duration_stats(df):
     print('-'*40)
 
 
-def user_stats(df,city):
+def user_info_stats(df,city):
     """Displays statistics on bikeshare users."""
 
     print('\nCalculating User Stats...\n')
@@ -202,7 +202,7 @@ def main():
         time_stats(df)
         station_stats(df)
         trip_duration_stats(df)
-        user_stats(df,city)
+        user_info_stats(df,city)
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
