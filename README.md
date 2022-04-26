@@ -10,7 +10,9 @@ The Bikeshare project
 
 The Bikeshare Project uses Python to analyze data from a bike-sharing app, Motivate in three major cities in the United States of America namely: Chicago, NewYork City and Washington. I have written code to import the data and answer interesting questions about it by computing descriptive statistics. I have also written a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
 
-Software Used: Python 3, NumPy, and pandas installed using Anaconda
+Software Used: 
+Python 3, NumPy, and pandas installed using Anaconda
+Sublime Text
 
 Data Sets: All three of the data files contain the same core six (6) columns: 
 Start Time (e.g., 2017-01-01 00:07:57) 
